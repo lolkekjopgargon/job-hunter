@@ -1,0 +1,71 @@
+# Node.js dependencies & builds
+node_modules/
+dist/
+build/
+release/
+.pnp
+.pnp.js
+
+# Binary executables & installers
+*.exe
+*.dmg
+*.AppImage
+*.zip
+*.tar.gz
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# SQLite local databases, write-ahead logs, and debug dumps
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+job_hunter.db
+job_hunter.db-wal
+job_hunter.db-shm
+*.log
+logs/
+
+# Secrets, session tokens and local environment configs
+.env
+.env.local
+.env.*.local
+*.token
+*.key
+cookies*.json
+session.json
+
+# IDE, Editor & OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
